@@ -1,0 +1,11 @@
+Confluence Export: Service Ownership
+
+Service: Payments API
+Owner: Payments Team
+Slack: #payments-help
+SLO: 99.9% monthly
+Runbook: Check DB connections, rotate API keys quarterly.
+
+Deployment:
+- main branch deploys to staging.
+- tags 'v*' deploy to production after checks.
